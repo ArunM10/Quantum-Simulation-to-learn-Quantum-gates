@@ -22,18 +22,20 @@ plt.show()
 
 # In[146]:
 
-
+# code for Toffoli gate
 U = np.array([[1,0,0,0,0,0,0,0],[0,1,0,0,0,0,0,0],[0,0,1,0,0,0,0,0],[0,0,0,1,0,0,0,0],[0,0,0,0,1,0,0,0],[0,0,0,0,0,1,0,0],
                   [0,0,0,0,0,0,0,1],[0,0,0,0,0,0,1,0]])
 
 def U_actual():
     qml.QubitUnitary(U,wires=[0,1,2])
-
+    
+    
+'''''''''''''
 
 # In[4]:
 
 
-# hamiltonian for toffoli gate using maximum two body interactions
+# corresponding hamiltonian for toffoli gate using maximum two body interactions
 l=np.random.rand(15)
 H=qml.Hamiltonian([l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[7],l[8],l[9],l[10],l[11],l[12],l[13],l[14]],
                                                     [qml.PauliX(wires=0)@qml.PauliX(wires=1),
