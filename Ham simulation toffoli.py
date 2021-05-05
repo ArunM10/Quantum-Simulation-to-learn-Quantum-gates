@@ -49,16 +49,11 @@ H=qml.Hamiltonian([l[0],l[1],l[2],l[3],l[4],l[5],l[6],l[7],l[8],l[9],l[10],l[11]
                                                      qml.PauliY(wires=0),qml.PauliY(wires=1),qml.PauliY(wires=2)])
 print(H)
 
-
-# In[ ]:
-
-
-
-
+''''''''''''
 
 # In[147]:
 
-
+# this part of code will produce the unitary transformation of the corresponding hamiltonian given in the prev cell 
 coeffs = [1]
 obs = [
     qml.PauliZ(0) @ qml.PauliZ(1)@qml.Identity(2)
@@ -85,7 +80,7 @@ print(circuit3.draw())
 
 #circuit for representing exp(-iHt), for any local Ham H
 
-
+'''''''''''''
 # In[161]:
 
 
