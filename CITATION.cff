@@ -1,0 +1,28 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Learning quantum gates
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Arunava
+    family-names: Majumder
+    email: Arunava.Majumder@uibk.ac.at
+    affiliation: University of Innsbruck
+identifiers:
+  - type: url
+    value: >-
+      https://github.com/ArunM10/Quantum-Simulation-to-learn-Quantum-gates
+    description: Code repository
+repository-code: >-
+  https://github.com/ArunM10/Quantum-Simulation-to-learn-Quantum-gates
+abstract: >-
+  To reproduce the data in the paper, one can use the code
+  available in the repository, and if you find it useful,
+  kindly cite our work.
+keywords:
+  - Hamiltonian learning
+  - Quantum simulation
